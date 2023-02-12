@@ -1,0 +1,172 @@
+@media screen and (min-width:1600.1px)
+{
+    .outerContainer{
+        display:flex;
+        justify-content: center;
+    }   
+    .innerContainer
+    {
+        display:flex;
+        justify-content: center; 
+        padding: 2em 5em;
+        vertical-align: top;
+        width: 60%;
+    }
+    p
+    {
+        font-family: 'Cabin Sketch', cursive;
+        color: beige;
+        font-size: 2em;
+        text-align: justify; 
+    }
+    .continued
+    {
+        font-family: 'Cabin Sketch', cursive;
+        color: beige;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2em;
+    }
+    iframe {
+        width: 100%;
+        height: 27em;
+    }
+}
+@media screen and (min-width:1024.1px) and (max-width:1600.1px)
+{
+    .outerContainer{
+        display:flex;
+        justify-content: center;
+    }   
+    .innerContainer
+    {
+        display:flex;
+        justify-content: center; 
+        padding: 2em 5em;
+        vertical-align: top;
+        width: 60%;
+    }
+    p
+    {
+        font-family: 'Cabin Sketch', cursive;
+        color: beige;
+        font-size: 1.5em;
+        text-align: justify; 
+    }
+    .continued
+    {
+        font-family: 'Cabin Sketch', cursive;
+        color: beige;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.6em;
+    }
+    iframe {
+        width: 100%;
+        height: 21em;
+    }
+}
+
+@media screen and (min-width:720.1px) and (max-width:1024px)
+{
+    .innerContainer
+    {
+        margin: auto;
+        width: 60%;
+    }
+    p
+    {
+        font-family: 'Cabin Sketch', cursive;
+        color: beige;
+        font-size: 1.3em;
+        text-align: justify; 
+    }
+    .outerContainer{
+        display:flex;
+        justify-content: center;
+    }
+    .continued
+    {
+        font-family: 'Cabin Sketch', cursive;
+        color: beige;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    iframe {
+        width: 100%;
+        height: 21em;
+    }
+}
+
+@media screen and (min-width:512.1px) and (max-width:720px)
+{
+    .innerContainer
+    {
+        margin: auto;
+        width: 60%;
+    }
+    p
+    {
+        font-family: 'Cabin Sketch', cursive;
+        color: beige;
+        font-size: 1.1em;
+        text-align: justify; 
+    }
+    .outerContainer{
+        display:flex;
+        justify-content: center;
+    }
+    .continued
+    {
+        font-family: 'Cabin Sketch', cursive;
+        color: beige;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.1em;
+    }
+    iframe {
+        width: 100%;
+        height: 10em;
+    }
+}
+
+@media screen and (min-width:319px) and (max-width:512px)
+{
+    p
+    {
+        font-family: 'Cabin Sketch', cursive;
+        color: beige;
+        font-size: 1em;
+        text-align: justify; 
+    }
+    .innerContainer
+    {
+        margin: auto;
+        width: 90%;
+    }
+    .outerContainer{
+        display:flex;
+        justify-content: center;
+    }
+
+    .continued
+    {
+        font-family: 'Cabin Sketch', cursive;
+        color: beige;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 3em 0em 0em 0em;
+        font-size: 1em;
+    }
+    iframe {
+        width: 100%;
+        height: 15em;
+    }
+}
+

@@ -1,0 +1,148 @@
+@media screen and (min-width:1600.1px)
+{
+    .intro{
+        padding: 2.5em 3em 0em 5em;
+        background-color:beige;
+        float: right;
+    }
+    
+    .header{
+        font-family: 'Pacifico', cursive;
+        font-size: 2.5em;
+    }
+    
+    .para{
+        font-family: 'Pacifico', cursive;
+        font-size: 2em;
+    }
+    
+    .photo{
+        background-color: beige;
+        float: left;
+    }
+    
+    .introContainer
+    {
+        display:flex;
+        justify-content: center; 
+        padding: 4em 10em;
+        vertical-align: top;
+    }
+    
+    .photo{
+        width: 30%;
+        object-fit: cover;
+        background-color: beige;
+        float: left;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1600px)
+{
+    .intro{
+        padding: 2.5em 3em 0em 5em;
+        background-color:beige;
+        float: right;
+    }
+    
+    .header{
+        font-family: 'Pacifico', cursive;
+        font-size: 2em;
+    }
+    
+    .para{
+        font-family: 'Pacifico', cursive;
+        font-size: 1.5em;
+    }
+    
+    .photo{
+        background-color: beige;
+        float: left;
+    }
+    
+    .introContainer
+    {
+        display:flex;
+        justify-content: center; 
+        padding: 4em 10em;
+        vertical-align: top;
+    }
+    
+    .photo{
+        width: 30%;
+        object-fit: cover;
+        background-color: beige;
+        float: left;
+    }
+}
+
+@media screen and (min-width:600.1px) and (max-width:1023px)
+{
+    .intro{
+        padding: 1em 3em 1em 5em;
+        background-color:beige;
+        float: right;
+    }
+    
+    .header{
+        font-family: 'Pacifico', cursive;
+        font-size: 1em;
+    }
+    
+    .para{
+        font-family: 'Pacifico', cursive;
+        font-size: 1em;
+    }
+    
+    .photo{
+        background-color: beige;
+        float: left;
+    }
+    
+    .introContainer
+    {
+        display:flex;
+        justify-content: center; 
+        padding: 1em 3em;
+        vertical-align: top;
+    }
+
+    .photo{
+        width: 30%;
+        object-fit: cover;
+        background-color: beige;
+        float: left;
+    }
+}
+
+@media screen and (min-width:319px) and (max-width:600px)
+{
+    .intro{
+        padding: 5em 0em 0em 0em;
+        background-image: url("./images/intro2.jpeg");
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+
+    }
+    
+    .header{
+        color: beige;
+        font-family: 'Pacifico', cursive;
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .para{
+        padding: 4em 0em 0em 0em;
+        color: beige;
+        font-family: 'Pacifico', cursive;
+        font-size: 1em;
+        text-align: center;
+    }
+    
+    .photo{
+        width: 0%;
+        background-color: beige;
+        float: right;
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="interSheet.css">
+    <title>Alankrit Moses</title>
+</head>
+<body>
+    <div class="title">
+        Alankrit Jacinth Moses
+    </div>
+    <div class="buttoncontainer">
+        <a href="index.html"><button id="intro" class="top">INTRODUCTION</button></a>
+        <a href="Education.html"><button id="edu" class="top" onclick="Education.html">EDUCATION</button></a>
+        <a href="Interests.html"><button id="interest" class="top">INTERESTS</button></a>
+        <a href="Projects.html"><button id="proj" class="top">PROJECTS</button></a>
+    </div>
+    <div class="mainWindow">
+        <div class="buttons">
+            <div class="panel" onclick="change('cs')"><div class="material-symbols-outlined" style="font-size:1.5em;">computer</div>&nbsp;&nbsp;comp-sci</div>
+            <div class="panel" onclick="change('music')"><div class="material-symbols-outlined" style="font-size:1.5em;">piano</div>&nbsp;&nbsp;music</div>
+            <div class="panel" onclick="change('cook')"><div class="material-symbols-outlined" style="font-size:1.5em;">cooking</div>&nbsp;&nbsp;cooking</div>
+        </div>
+        <div class="textCont">
+            <div id = 'title' class="header">
+                COMPUTER SCIENCE
+            </div>
+            <div id = 'bod' class="mainText">
+                One of my interests since childhood has been in the field of Computer Science. Being able to create a whole new world with just 0s and 1s was such a fascinating concept for me.
+            </div>
+            
+            <div id = 'list' class="mainText">
+                A few things that I am profiecient in:
+                <ul>
+                    <li>Python, Java, HTML, CSS, Javascript, C#, AJAX, SQL</li>
+                    <li>Software/Game Development</li>
+                    <li>Website Development: Full Stack dev</li>
+                </ul>
+            </div>
+        </div>
+        <img src="./images/coding.jpg" alt="" class="image" id="display"></img>
+        </div>
+    </div>
+</body>
+<script>
+    function change(name)
+    {
+        title = document.getElementById('title');
+        bod = document.getElementById('bod');
+        lst = document.getElementById('list');
+        image = document.getElementById('display');
+        if(name=='cs')
+        {
+            title.innerHTML = 'COMPUTER SCIENCE'
+            bod.innerHTML = 'One of my interests since childhood has been in the field of Computer Science. Being able to create a whole new world with just 0s and 1s was such a fascinating concept for me.'
+            lst.innerHTML = 'A few things that I am profiecient in:<ul><li>Python, Java, HTML, CSS, Javascript, C#, AJAX, SQL</li><li>Software/Game Development</li><li>Website Development: Full Stack dev</li></ul>'
+            image.src = "./images/coding.jpg";
+        }
+        else if(name=='music')
+        {
+            title.innerHTML = 'MUSIC'
+            bod.innerHTML = 'Music is something very close to my heart, It has been one of my escapes from this world since childhood. Whether it be learning to play, sing, or even listen, it has always done wonders for me.'
+            lst.innerHTML = 'I started off playing music when I was six, the first instrument I ever learned was the synthesizer, there was no stop to it and today I have taught myself around 7-8 other musical instruments as well. I hope this passion of mine never leaves me.'
+            image.src = "./images/music.jpg";
+        }
+        else if(name=='cook')
+        {
+            title.innerHTML = 'COOKING'
+            bod.innerHTML = "Well, I must say that this is a new found hobby for me. I couldn't cook anything except noodles and eggs until one or two years back. But now I have learned making different dishes from almost 5-6 different cuisines."
+            lst.innerHTML = "It came more as a necessity than an interest. I had to learn cooking for college, but soon I found it to be a fascinating activity for me. I am foody and unexpectedly I found myself a resonating hobby."
+            image.src = "./images/food.webp";
+
+        }
+    }
+</script>
+</html>
